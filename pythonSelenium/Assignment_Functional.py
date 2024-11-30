@@ -22,7 +22,7 @@ driver.find_element(By.CSS_SELECTOR, 'input.search-keyword').send_keys('ber')
 
 time.sleep(2)
 
-# Some validation
+# Validation of products
 results = driver.find_elements(By.XPATH, '//div[@class="products"]/div')
 
 for value in actualList:
